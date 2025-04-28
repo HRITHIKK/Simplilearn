@@ -120,4 +120,6 @@ def send_personalized_message():
         return jsonify([{"message": "Form data is incomplete."}]), 400
 
 if __name__ == '__main__':
-    app.run(port=5001, debug=True)
+    # app.run(port=5001, debug=True)
+    pass
+
